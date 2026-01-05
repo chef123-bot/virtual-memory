@@ -43,4 +43,17 @@
 ![image Alt](a.png)
 
 ![image Alt](b.png)
-# virtual-memory
+
+##### Write
+
+```shell
+ ./memory.sh
+```
+
+```shell
+./memory_test w
+```
+
+![](c.png)
+![](d.png)
+![](e.png)
