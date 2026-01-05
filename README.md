@@ -64,3 +64,21 @@
 
 Точно так же напишем shell-скрипт для отслеживания изменений в виртуальной и физической памяти в режиме реального времени!!([wine_monitor.sh](wine_monitor.sh))
 
+##### Read
+
+Компиляция исполняемых файлов Windows в Linux:
+
+```shell
+ x86_64-w64-mingw32-gcc -o memory_test.exe memory.c
+```
+
+Запустить нашу программу после запуска скрипта
+
+```shell
+./wine_monitor.sh
+```
+
+```shell
+ wine ./memory_test.exe r
+```
+
