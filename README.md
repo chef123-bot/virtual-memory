@@ -33,7 +33,10 @@ Read
 Запустить нашу программу после запуска скрипта
 
  ./memory.sh
+ 
 ./memory_test r
+
+
 
 
 # virtual-memory
