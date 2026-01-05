@@ -82,3 +82,21 @@
  wine ./memory_test.exe r
 ```
 
+![](https://github.com/chef123-bot/virtual-memory/blob/33c40732ff82336e1a2ffa9f5d854acb9c794eda/f.png)
+![](https://github.com/chef123-bot/virtual-memory/blob/33c40732ff82336e1a2ffa9f5d854acb9c794eda/g.png)
+
+Программа работает очень медленно в системе Windows, эмулируемой через Wine
+
+##### Write
+
+```shell
+./wine_monitor.sh
+```
+
+```shell
+ wine ./memory_test.exe w
+```
+
+![](https://github.com/chef123-bot/virtual-memory/blob/33c40732ff82336e1a2ffa9f5d854acb9c794eda/h.png)
+![](https://github.com/chef123-bot/virtual-memory/blob/33c40732ff82336e1a2ffa9f5d854acb9c794eda/i.png)
+
